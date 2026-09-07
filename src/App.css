@@ -97,6 +97,8 @@
 }
 
 .jumbotron {
+  position: relative;
+  overflow: hidden;
   width: 100vw;
   margin-left: calc(50% - 50vw);
   overflow: hidden;
@@ -108,8 +110,22 @@
 .jumbotron img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 25vh;
   object-fit: cover;
+}
+
+.jumbotron::after {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 35%;
+  background: linear-gradient(
+    to top,
+    rgb(255 255 255 / 98%),
+    transparent
+  );
+  pointer-events: none;
 }
 
 .hero {
@@ -151,6 +167,11 @@
   }
 }
 
+.test-p5 {
+  padding: 3vh;
+  inset: 0;
+  pointer-events: none;
+} 
 #center {
   display: flex;
   flex-direction: column;

@@ -34,7 +34,7 @@ const TestP5 = () => {
     };
   }, []);
 
-  return <div ref={containerRef}></div>;
+  return <div className="test-p5" ref={containerRef}></div>;
 };
 
 export default TestP5;
