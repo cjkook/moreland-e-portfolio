@@ -1,3 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  min-height: 64px;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.navbar a {
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.navbar a:hover {
+  color: var(--text-h);
+}
+
+.navbar a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+  border-radius: 2px;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    min-height: 56px;
+    gap: 22px;
+  }
+}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -15,6 +50,20 @@
     outline: 2px solid var(--accent);
     outline-offset: 2px;
   }
+}
+
+.jumbotron {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+}
+
+.jumbotron img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .hero {
@@ -54,6 +103,11 @@
     transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
       scale(0.8);
   }
+}
+
+#root {
+  width: 100%;
+  max-width: none;
 }
 
 #center {
