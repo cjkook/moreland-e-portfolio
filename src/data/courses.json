@@ -1,0 +1,60 @@
+{
+  "courses": [
+    {
+      "id": "ed501",
+      "title": "ED 501: Orientation",
+      "description": "An overview of the TeachNow platform.",
+      "instructor": "Cascade Lineback",
+      "projects": [
+        {
+          "title": "Methods: Five Principles of Instructional Design",
+          "description": "",
+          "link": "merill-design"
+        }
+      ]
+    },
+    {
+      "id": "ed502",
+      "title": "ED 502: Learning Theories",
+      "description": "",
+      "instructor": ""
+    },
+    {
+      "id": "ed503",
+      "title": "ED 503: Educational Psychology",
+      "description": "",
+      "instructor": ""
+      
+    },
+    {
+      "id": "ed504",
+      "title": "ED 504: Curriculum Development",
+      "description": "",
+      "instructor": ""
+    },
+    {
+      "id": "ed505",
+      "title": "ED 505: Assessment and Evaluation",
+      "description": "",
+      "instructor": ""
+    },
+    {
+      "id": "ed506",
+      "title": "ED 506: Instructional Strategies",
+      "description": "",
+      "instructor": "Prof. Miller"
+    },
+    {
+      "id": "ed507",
+      "title": "ED 507: Special Education",
+      "description": "",
+      "instructor": ""
+    },
+    {
+      "id": "ed508",
+      "title": "ED 508: Educational Technology",
+      "description": "",
+      "instructor": ""
+    }
+  ]
+}

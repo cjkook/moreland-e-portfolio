@@ -1,0 +1,60 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "title": "Task-centered Approach",
+      "textTop": "The problem-centered approach emphasizes designing instruction around authentic, real-world problems that learners are likely to encounter.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO8Ig24Q26Q2Z788Il4-AxBPSERyZ36yjbHFpH2KJuDw&s=10",
+      "imageAlt": "Card image",
+      "textBottom": "This is the bottom text section with additional details.",
+      "navLink": "/some-page",
+      "navLabel": "Learn More",
+      "citation": "Merrill’s principles of instruction (MPI). Current Students - Tippie College of Business | The University of Iowa. (n.d.). ",
+      "citationLink": "https://students.tippie.uiowa.edu/tippie-resources/technology/instructional-design/models/merrill "
+    },
+    {
+      "id": 1,
+      "title": "Activation",
+      "textTop": "The activation principle focuses on engaging learners' prior knowledge and experiences to create a foundation for new learning.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyYmlZzjRFbNp5AIOo3a3tEWowRfDtZjif5Hj6O3J3ug&s=10",
+      "imageAlt": "Another image",
+      "textBottom": "Bottom text...",
+      "navLink": "/another-page",
+      "navLabel": "View Details",
+      "citation": "Reference: Author, Year, Source"
+    },
+    {
+      "id": 2,
+      "title": "Demonstration",
+      "textTop": "The demonstration principle emphasizes providing clear models or examples that illustrate the desired learning outcomes. Learners observe these demonstrations to develop an understanding of how to perform the desired tasks.",
+      "image": "../assets/array.png",
+      "imageAlt": "Another image",
+      "textBottom": "Bottom text...",
+      "navLink": "/another-page",
+      "navLabel": "View Details",
+      "citation": "Reference: Author, Year, Source"
+    },
+    {
+      "id": 3,
+      "title": "Application",
+      "textTop": "The activation principle focuses on engaging learners' prior knowledge and experiences to create a foundation for new learning.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyYmlZzjRFbNp5AIOo3a3tEWowRfDtZjif5Hj6O3J3ug&s=10",
+      "imageAlt": "Another image",
+      "textBottom": "Bottom text...",
+      "navLink": "/another-page",
+      "navLabel": "View Details",
+      "citation": "Reference: Author, Year, Source"
+    },
+    {
+      "id": 4,
+      "title": "Integration",
+      "textTop": "The activation principle focuses on engaging learners' prior knowledge and experiences to create a foundation for new learning.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyYmlZzjRFbNp5AIOo3a3tEWowRfDtZjif5Hj6O3J3ug&s=10",
+      "imageAlt": "Another image",
+      "textBottom": "Bottom text...",
+      "navLink": "/another-page",
+      "navLabel": "View Details",
+      "citation": "Reference: Author, Year, Source"
+    }
+  ]
+}
