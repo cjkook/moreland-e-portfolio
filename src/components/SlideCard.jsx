@@ -3,7 +3,6 @@ import { useState } from 'react';
 export default function SlideCard({ cardData, currentIndex, totalCards, onNavigate }) {
   const [showCitation, setShowCitation] = useState(false);
 
-  console.log('slide loaded')
   if (!cardData) {
     return <div>Card data not found</div>;
   }
